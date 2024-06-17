@@ -1,0 +1,166 @@
+/* リセットcss */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p,
+a,
+td,
+tr,
+label,
+input,
+textarea,
+button {
+    font-size: 20px;
+    color: #424242;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #424242;
+}
+
+section {
+    padding: 0px 80px 60px;
+}
+
+/*ーーーーーーーーーーー */
+/* ナビゲーションバー用のCSS */
+/*ーーーーーーーーーーー */
+
+/*ーーーーーーーーーーー */
+/* 自己紹介用のCSS */
+/*ーーーーーーーーーーー */
+
+.self-introduction {
+    background-image: url(https://windowsfaq.net/img/windows/personal/download-wallpaper/recommended-wallpaper-03-A.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(97, 72, 72, 0.5);
+}
+
+.self-introduction h2,
+.self-introduction h3,
+.self-introduction p {
+    color: white;
+}
+
+.self-introduction-content {
+    display: flex;
+}
+
+div.self-introduction-image-circle {
+    /* image_circleクラスのdivがflexをしたときに小さくならないようにする */
+    flex-shrink: 0;
+    /* index.htmlのself-introductionクラスの画像を丸にする */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("https://did2memo.net/wp-content/uploads/2018/03/windows-10-wallpaper-suddenly-changed.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.self-introduction-text {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sns {
+    padding-top: 10px;
+    padding-right: 40px;
+    /* snsクラスのimageを右に寄せる */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* snsクラスのimageタグを30px 30pxに変更する */
+.sns img {
+    /* width: 30px; */
+    padding-left: 10px;
+    height: 30px;
+}
+
+/*ーーーーーーーーーーー */
+/* 経歴用のCSS */
+/*ーーーーーーーーーーー */
+
+/* careerクラスの図テーブルを中央寄せする */
+.career {
+    margin: 0 auto;
+}
+
+.SUBJECT {
+    margin: 0 auto;
+}
+
+contact {
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #999;
+    margin: 0 auto 40px;
+    text-align: center;
+    width: 70%;
+}
+
+tr,
+th,
+td {
+    text-align: left;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+/*ーーーーーーーーーーー */
+/* メールフォーム用のCSS */
+/*ーーーーーーーーーーー */
+
+/*ーーーーーーーーーーー */
+/* フッター用のCSS */
+/*ーーーーーーーーーーー */
+footer {
+    background-color: #424242;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}

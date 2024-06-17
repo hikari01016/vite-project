@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トピック別スレッド一覧</title>
+    <!-- cssの導入 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontのnoto-sans-font埋め込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>トピック別スレッド一覧</h1>
+        <!-- ここにnavberを作成 -->
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html"></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="self-introduction">
+            <h2>トピック</h2>
+            <ul>
+                <li>
+                    <p>・トピック１「」</p>
+                    <p>・トピック２「」</p>
+                    <p>・トピック３「」</p>
+                </li>
+            </ul>
+            <!-- kuma.jpgの挿入 -->
+            <!-- <div class="self-introduction-content">
+                 <div class="self-introduction-image-circle"></div>
+                 <div class="self-introduction-text">
+                     <h3>ひかり</h3>
+                     <p>北海道出身の大学一年生。函館市に13年在住中。公立はこだて未来大学で情報について学ぶ。主にWeb系のプログラミングに興味を持っている。</p>
+                     <Twitterとgithubのアイコンとそのリンク -->
+            <!-- <div class="sns">
+                         <a href="https://twitter.com/zero06408445522" target="_blank" rel="noopener noreferrer"><img
+                                 src="./image/twitter.png" alt="twitter"></a>
+                         <a href="https://github.com/hikari01016" target="_blank" rel="noopener noreferrer"><img
+                                 src="./image/github.png" alt="twitter"></a>
+                     </div>
+                 </div> -->
+        </section>
+        <section class="SUBJECT">
+            <h2>スレッド</h2>
+            <p>>>{ID} aiueo</p>
+            <p>>>{ID} abcde</p>
+            <p>↓↓↓本文入力はこちら↓↓↓</p>
+            <form action="sample.cgi" method="post">
+                <p>コメント本文<br>
+                    <textarea id="textarea" name="textarea" rows="5" cols="33">
+                </textarea>
+                </p>
+                <p><input type="submit" value="送信する" /></p>
+                <input type="reset" value="取消する" />
+            </form>
+        </section>
+        <section class="career">
+            <h2>表</h2>
+            <table>
+                <tr>
+                    <th>言語</th>
+                    <th>レベル</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>作成で使用</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>作成で使用</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>未学習</td>
+                </tr>
+            </table>
+        </section>
+        <section class="contact-form">
+            <h2>問い合わせはこちら</h2>
+            <!-- ここにメールフォームを作成 -->
+            <contact>
+                <form action="sample.cgi" method="post">
+                    <p>名前またはID:<input type="text" name="id" /></p>
+                    <p>本文<br>
+                        <textarea id="textarea" name="textarea" rows="4" cols="20">
+                </textarea>
+                    </p>
+                    <p><input type="submit" value="送信する" /></p>
+                    <input type="reset" value="取消する" />
+                </form>
+            </contact>
+        </section>
+    </main>
+    <footer>
+        <p>©︎hikari.2023./p>
+    </footer>
+</body>
+
+</html>
